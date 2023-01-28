@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(../img/rock\ 3.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+nav{
+    text-align: center;
+    padding-top: 60px;
+    border: solid white 2px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Montserrat';
+    list-style: none;
+    color: white;
+}
+.header-content{
+    display: flex;
+}
+.header-content h1{
+    color: white;
+    margin: 300px;
+    width: 1000px;
+    height: 200px;
+    font-size: 60px;
+    font-family: 'Montserrat';
+}
+.header-content p{
+    margin: 300px;
+    width: 700px;
+    height: 300px;
+    color: white;
+    font-size: 40px;
+}
+.img-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.img-1 img{
+    width: 1200px;
+    height: 800px;
+    border-radius: 20px;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    text-align: center;
+}
+.img1-text{
+    width: 1200px;
+}
+.img1-text p{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
